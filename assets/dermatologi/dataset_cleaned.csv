@@ -1,0 +1,359 @@
+id,erythema,scaling,itching,knee_and_elbow,scalp,family_history,age,diagnosis
+1,Sedang,Sedang,Parah,Ya,Tidak,Tidak,55,Seboreic Dermatitis
+2,Parah,Parah,Sedang,Ya,Ya,Ya,8,Psoriasis
+3,Sedang,Ringan,Parah,Tidak,Tidak,Tidak,26,Lichen Planus
+4,Sedang,Sedang,Tidak,Parah,Sedang,Tidak,40,Psoriasis
+5,Sedang,Parah,Sedang,Tidak,Tidak,Tidak,45,Lichen Planus
+6,Sedang,Parah,Tidak,Tidak,Tidak,Tidak,41,Seboreic Dermatitis
+7,Sedang,Ringan,Sedang,Tidak,Tidak,Tidak,18,Cronic Dermatitis
+8,Sedang,Sedang,Parah,Tidak,Tidak,Tidak,57,Lichen Planus
+9,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,22,Pityriasis Rosea
+10,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,30,Pityriasis Rosea
+11,Parah,Parah,Ringan,Ya,Ya,Ya,20,Psoriasis
+12,Sedang,Sedang,Parah,Tidak,Tidak,Tidak,21,Seboreic Dermatitis
+13,Parah,Parah,Sedang,Tidak,Ya,Tidak,22,Seboreic Dermatitis
+14,Sedang,Parah,Tidak,Ya,Ya,Ya,10,Psoriasis
+15,Sedang,Sedang,Parah,Tidak,Tidak,Tidak,65,Lichen Planus
+16,Ringan,Ringan,Ringan,Tidak,Tidak,Tidak,40,Pityriasis Rosea
+17,Sedang,Sedang,Parah,Tidak,Tidak,Tidak,30,Seboreic Dermatitis
+18,Parah,Parah,Tidak,Ya,Ya,Ya,38,Psoriasis
+19,Sedang,Ringan,Parah,Ya,Tidak,Tidak,23,Lichen Planus
+20,Ringan,Ringan,Parah,Tidak,Tidak,Tidak,17,Cronic Dermatitis
+21,Sedang,Ringan,Sedang,Ya,Ya,Tidak,8,Pityriasis Rubra Pilaris
+22,Parah,Sedang,Tidak,Tidak,Tidak,Tidak,51,Seboreic Dermatitis
+23,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,42,Cronic Dermatitis
+24,Sedang,Sedang,Parah,Tidak,Tidak,Tidak,44,Lichen Planus
+25,Sedang,Tidak,Parah,Tidak,Tidak,Tidak,22,Cronic Dermatitis
+26,Sedang,Ringan,Tidak,Ya,Tidak,Tidak,33,Psoriasis
+27,Ringan,Ringan,Ringan,Ya,Tidak,Tidak,10,Pityriasis Rubra Pilaris
+28,Ringan,Sedang,Parah,Tidak,Tidak,Tidak,17,Cronic Dermatitis
+29,Parah,Sedang,Sedang,Tidak,Tidak,Tidak,43,Seboreic Dermatitis
+30,Ringan,Ringan,Parah,Tidak,Tidak,Tidak,50,Lichen Planus
+31,Parah,Sedang,Sedang,Ya,Ya,Tidak,50,Psoriasis
+32,Parah,Sedang,Sedang,Tidak,Tidak,Tidak,10,Seboreic Dermatitis
+33,Sedang,Parah,Parah,Ya,Ya,Tidak,34,Psoriasis
+34,Sedang,Ringan,Ringan,Tidak,Tidak,Tidak,15,Seboreic Dermatitis
+35,Sedang,Ringan,Parah,Tidak,Tidak,Tidak,26,Lichen Planus
+36,Parah,Parah,Tidak,Ya,Ya,Ya,46,Psoriasis
+37,Ringan,Ringan,Tidak,Tidak,Tidak,Tidak,51,Seboreic Dermatitis
+38,Ringan,Ringan,Tidak,Tidak,Tidak,Tidak,62,Pityriasis Rosea
+39,Parah,Sedang,Ringan,Ya,Ya,Tidak,15,Psoriasis
+40,Sedang,Ringan,Ringan,Ya,Tidak,Tidak,35,Seboreic Dermatitis
+41,Tidak,Ringan,Parah,Tidak,Tidak,Tidak,30,Cronic Dermatitis
+42,Sedang,Ringan,Ringan,Tidak,Tidak,Tidak,48,Lichen Planus
+43,Sedang,Ringan,Parah,Tidak,Tidak,Tidak,46,Pityriasis Rosea
+44,Sedang,Ringan,Ringan,Ya,Ya,Tidak,12,Pityriasis Rubra Pilaris
+45,Ringan,Sedang,Ringan,Tidak,Ya,Tidak,52,Seboreic Dermatitis
+46,Sedang,Tidak,Tidak,Tidak,Tidak,Tidak,60,Lichen Planus
+47,Parah,Ringan,Sedang,Tidak,Tidak,Tidak,32,Lichen Planus
+48,Ringan,Ringan,Ringan,Tidak,Tidak,Tidak,35,Pityriasis Rosea
+49,Sedang,Sedang,Ringan,Ya,Ya,Tidak,41,Psoriasis
+50,Parah,Ringan,Ringan,Tidak,Ya,Ya,48,Psoriasis
+51,Tidak,Ringan,Sedang,Tidak,Tidak,Tidak,51,Cronic Dermatitis
+52,Sedang,Sedang,Ringan,Tidak,Ya,Tidak,19,Psoriasis
+53,Ringan,Ringan,Ringan,Tidak,Tidak,Tidak,22,Seboreic Dermatitis
+54,Sedang,Ringan,Parah,Tidak,Tidak,Tidak,29,Lichen Planus
+55,Ringan,Ringan,Ringan,Tidak,Tidak,Tidak,25,Pityriasis Rosea
+56,Parah,Parah,Parah,Tidak,Tidak,Tidak,33,Seboreic Dermatitis
+57,Sedang,Sedang,Ringan,Ya,Ya,Ya,8,Pityriasis Rubra Pilaris
+58,Sedang,Ringan,Ringan,Ya,Ya,Tidak,40,Psoriasis
+59,Ringan,Ringan,Ringan,Tidak,Tidak,Tidak,33,Cronic Dermatitis
+60,Parah,Parah,Ringan,Parah,Parah,Ya,42,Psoriasis
+61,Sedang,Sedang,Parah,Tidak,Tidak,Tidak,36,Seboreic Dermatitis
+62,Parah,Sedang,Ringan,Tidak,Tidak,Tidak,60,Lichen Planus
+63,Sedang,Sedang,Ringan,Parah,Parah,Tidak,36,Psoriasis
+64,Ringan,Ringan,Ringan,Tidak,Tidak,Tidak,21,Pityriasis Rosea
+65,Parah,Parah,Ringan,Tidak,Tidak,Tidak,40,Cronic Dermatitis
+66,Parah,Parah,Ringan,Parah,Ringan,Tidak,21,Psoriasis
+67,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,34,Seboreic Dermatitis
+68,Sedang,Ringan,Ringan,Parah,Ringan,Ya,13,Pityriasis Rubra Pilaris
+69,Ringan,Ringan,Ringan,Tidak,Ringan,Tidak,52,Lichen Planus
+70,Ringan,Ringan,Ringan,Tidak,Tidak,Tidak,48,Cronic Dermatitis
+71,Sedang,Ringan,Ringan,Tidak,Tidak,Tidak,17,Pityriasis Rosea
+72,Parah,Sedang,Ringan,Tidak,Ringan,Tidak,25,Seboreic Dermatitis
+73,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,33,Seboreic Dermatitis
+74,Sedang,Ringan,Ringan,Tidak,Ya,Ya,62,Psoriasis
+75,Tidak,Tidak,Tidak,Tidak,Ringan,Tidak,52,Lichen Planus
+76,Sedang,Sedang,Ringan,Tidak,Tidak,Tidak,27,Cronic Dermatitis
+77,Parah,Sedang,Ringan,Tidak,Ya,Tidak,40,Psoriasis
+78,Parah,Sedang,Ringan,Tidak,Ya,Tidak,31,Seboreic Dermatitis
+79,Sedang,Ringan,Ringan,Tidak,Tidak,Tidak,27,Seboreic Dermatitis
+80,Parah,Sedang,Sedang,Tidak,Ringan,Tidak,10,Seboreic Dermatitis
+81,Ringan,Ringan,Parah,Tidak,Tidak,Tidak,55,Cronic Dermatitis
+82,Sedang,Sedang,Parah,Tidak,Ringan,Tidak,30,Psoriasis
+83,Parah,Parah,Ringan,Tidak,Ya,Tidak,42,Psoriasis
+84,Sedang,Ringan,Sedang,Tidak,Ya,Tidak,48,Lichen Planus
+85,Tidak,Ringan,Sedang,Ringan,Ringan,Tidak,22,Psoriasis
+86,Ringan,Ringan,Ringan,Tidak,Tidak,Tidak,31,Pityriasis Rosea
+87,Parah,Sedang,Parah,Ringan,Tidak,Tidak,50,Seboreic Dermatitis
+88,Sedang,Ringan,Ringan,Tidak,Tidak,Tidak,43,Seboreic Dermatitis
+89,Ringan,Ringan,Parah,Ringan,Ringan,Tidak,30,Cronic Dermatitis
+90,Parah,Parah,Parah,Parah,Ringan,Tidak,42,Psoriasis
+91,Sedang,Ringan,Parah,Tidak,Ya,Tidak,22,Lichen Planus
+92,Sedang,Ringan,Ringan,Tidak,Tidak,Tidak,18,Pityriasis Rosea
+93,Sedang,Sedang,Ringan,Tidak,Tidak,Tidak,35,Seboreic Dermatitis
+94,Ringan,Ringan,Ringan,Tidak,Tidak,Tidak,60,Cronic Dermatitis
+95,Sedang,Sedang,Ringan,Sedang,Ringan,Tidak,28,Psoriasis
+96,Sedang,Sedang,Ringan,Sedang,Tidak,Ya,13,Pityriasis Rubra Pilaris
+97,Sedang,Sedang,Sedang,Ringan,Tidak,Tidak,20,Seboreic Dermatitis
+98,Ringan,Ringan,Ringan,Tidak,Tidak,Tidak,64,Cronic Dermatitis
+99,Parah,Parah,Parah,Sedang,Ringan,Tidak,43,Psoriasis
+100,Sedang,Parah,Sedang,Tidak,Tidak,Tidak,20,Seboreic Dermatitis
+101,Ringan,Sedang,Ringan,Tidak,Tidak,Tidak,34,Seboreic Dermatitis
+102,Sedang,Sedang,Sedang,Tidak,Tidak,Ya,39,Psoriasis
+103,Ringan,Ringan,Ringan,Tidak,Tidak,Tidak,60,Pityriasis Rosea
+104,Ringan,Ringan,Ringan,Ya,Ya,Tidak,38,Psoriasis
+105,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,44,Lichen Planus
+106,Parah,Sedang,Sedang,Tidak,Tidak,Tidak,36,Psoriasis
+107,Sedang,Sedang,Parah,Tidak,Tidak,Tidak,41,Psoriasis
+108,Sedang,Sedang,Parah,Tidak,Tidak,Tidak,18,Lichen Planus
+109,Ringan,Ringan,Tidak,Tidak,Tidak,Tidak,39,Cronic Dermatitis
+110,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,40,Lichen Planus
+111,Ringan,Ringan,Sedang,Tidak,Tidak,Tidak,47,Lichen Planus
+112,Sedang,Sedang,Parah,Tidak,Tidak,Tidak,16,Cronic Dermatitis
+113,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,27,Seboreic Dermatitis
+114,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,52,Lichen Planus
+115,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,25,Pityriasis Rosea
+116,Ringan,Ringan,Ringan,Tidak,Tidak,Tidak,0,Psoriasis
+117,Parah,Parah,Sedang,Tidak,Tidak,Tidak,33,Seboreic Dermatitis
+118,Sedang,Sedang,Ringan,Tidak,Tidak,Tidak,46,Cronic Dermatitis
+119,Ringan,Ringan,Tidak,Tidak,Tidak,Ya,7,Pityriasis Rubra Pilaris
+120,Sedang,Parah,Parah,Tidak,Ya,Tidak,30,Psoriasis
+121,Parah,Sedang,Sedang,Tidak,Tidak,Tidak,29,Psoriasis
+122,Sedang,Sedang,Ringan,Tidak,Tidak,Tidak,23,Seboreic Dermatitis
+123,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,8,Pityriasis Rubra Pilaris
+124,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,44,Lichen Planus
+125,Ringan,Ringan,Tidak,Tidak,Tidak,Tidak,17,Cronic Dermatitis
+126,Sedang,Ringan,Sedang,Tidak,Tidak,Tidak,16,Pityriasis Rosea
+127,Ringan,Ringan,Sedang,Ya,Tidak,Tidak,55,Psoriasis
+128,Sedang,Sedang,Parah,Ya,Ya,Tidak,40,Psoriasis
+129,Parah,Sedang,Ringan,Tidak,Tidak,Tidak,34,Lichen Planus
+130,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,29,Cronic Dermatitis
+131,Parah,Sedang,Tidak,Tidak,Tidak,Tidak,34,Cronic Dermatitis
+132,Ringan,Ringan,Ringan,Tidak,Tidak,Tidak,25,Psoriasis
+133,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,70,Pityriasis Rosea
+134,Parah,Parah,Ringan,Tidak,Tidak,Tidak,37,Seboreic Dermatitis
+135,Sedang,Parah,Parah,Tidak,Tidak,Tidak,41,Lichen Planus
+136,Parah,Parah,Parah,Tidak,Tidak,Tidak,32,Psoriasis
+137,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,20,Seboreic Dermatitis
+138,Sedang,Parah,Sedang,Tidak,Tidak,Tidak,19,Psoriasis
+139,Parah,Sedang,Parah,Tidak,Tidak,Tidak,61,Psoriasis
+140,Sedang,Ringan,Parah,Tidak,Tidak,Tidak,27,Lichen Planus
+141,Ringan,Ringan,Parah,Tidak,Tidak,Tidak,36,Lichen Planus
+142,Sedang,Sedang,Parah,Tidak,Tidak,Tidak,40,Lichen Planus
+143,Parah,Sedang,Parah,Tidak,Tidak,Tidak,52,Seboreic Dermatitis
+144,Ringan,Ringan,Parah,Tidak,Tidak,Tidak,27,Cronic Dermatitis
+145,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,30,Pityriasis Rosea
+146,Sedang,Parah,Sedang,Tidak,Tidak,Tidak,45,Seboreic Dermatitis
+147,Ringan,Sedang,Parah,Tidak,Tidak,Tidak,34,Seboreic Dermatitis
+148,Sedang,Parah,Ringan,Ya,Tidak,Ya,27,Psoriasis
+149,Parah,Parah,Sedang,Tidak,Tidak,Tidak,46,Psoriasis
+150,Sedang,Sedang,Tidak,Ya,Tidak,Tidak,52,Psoriasis
+151,Ringan,Tidak,Sedang,Tidak,Tidak,Tidak,28,Cronic Dermatitis
+152,Sedang,Ringan,Ringan,Tidak,Tidak,Tidak,40,Lichen Planus
+153,Sedang,Parah,Sedang,Tidak,Tidak,Tidak,55,Seboreic Dermatitis
+154,Parah,Parah,Sedang,Tidak,Tidak,Tidak,32,Lichen Planus
+155,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,33,Seboreic Dermatitis
+156,Parah,Sedang,Ringan,Tidak,Tidak,Tidak,47,Seboreic Dermatitis
+157,Sedang,Ringan,Tidak,Tidak,Tidak,Tidak,35,Pityriasis Rosea
+158,Sedang,Ringan,Sedang,Tidak,Tidak,Tidak,61,Seboreic Dermatitis
+159,Parah,Sedang,Sedang,Tidak,Tidak,Tidak,22,Lichen Planus
+160,Sedang,Sedang,Tidak,Ya,Ya,Ya,10,Pityriasis Rubra Pilaris
+161,Parah,Sedang,Sedang,Tidak,Tidak,Tidak,20,Seboreic Dermatitis
+162,Parah,Sedang,Parah,Ya,Ya,Ya,55,Psoriasis
+163,Sedang,Parah,Sedang,Tidak,Tidak,Tidak,67,Psoriasis
+164,Sedang,Sedang,Parah,Tidak,Tidak,Tidak,51,Lichen Planus
+165,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,20,Pityriasis Rosea
+166,Sedang,Sedang,Parah,Tidak,Tidak,Tidak,22,Lichen Planus
+167,Ringan,Ringan,Parah,Tidak,Tidak,Tidak,45,Lichen Planus
+168,Sedang,Parah,Tidak,Tidak,Tidak,Tidak,55,Psoriasis
+169,Parah,Sedang,Tidak,Tidak,Tidak,Tidak,56,Psoriasis
+170,Parah,Parah,Tidak,Tidak,Tidak,Tidak,18,Psoriasis
+171,Parah,Sedang,Sedang,Tidak,Tidak,Tidak,40,Lichen Planus
+172,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,30,Psoriasis
+173,Parah,Sedang,Tidak,Tidak,Tidak,Tidak,33,Psoriasis
+174,Sedang,Sedang,Parah,Tidak,Tidak,Tidak,40,Seboreic Dermatitis
+175,Ringan,Sedang,Sedang,Tidak,Tidak,Tidak,42,Lichen Planus
+176,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,36,Lichen Planus
+177,Sedang,Parah,Tidak,Tidak,Tidak,Tidak,27,Psoriasis
+178,Parah,Sedang,Tidak,Tidak,Tidak,Tidak,56,Psoriasis
+179,Ringan,Parah,Tidak,Tidak,Tidak,Tidak,60,Psoriasis
+180,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,20,Psoriasis
+181,Sedang,Sedang,Tidak,Tidak,Tidak,Ya,7,Pityriasis Rubra Pilaris
+182,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,30,Seboreic Dermatitis
+183,Parah,Sedang,Parah,Tidak,Tidak,Tidak,19,Seboreic Dermatitis
+184,Sedang,Parah,Sedang,Tidak,Tidak,Tidak,52,Seboreic Dermatitis
+185,Parah,Sedang,Sedang,Tidak,Tidak,Ya,55,Seboreic Dermatitis
+186,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,23,Psoriasis
+187,Sedang,Ringan,Parah,Tidak,Tidak,Tidak,50,Lichen Planus
+188,Sedang,Parah,Parah,Tidak,Tidak,Tidak,38,Lichen Planus
+189,Parah,Sedang,Sedang,Tidak,Tidak,Tidak,25,Lichen Planus
+190,Sedang,Sedang,Tidak,Tidak,Tidak,Ya,18,Psoriasis
+191,Parah,Sedang,Tidak,Tidak,Tidak,Ya,35,Psoriasis
+192,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,22,Seboreic Dermatitis
+193,Parah,Sedang,Parah,Tidak,Tidak,Tidak,52,Lichen Planus
+194,Parah,Sedang,Tidak,Tidak,Tidak,Tidak,50,Seboreic Dermatitis
+195,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,33,Seboreic Dermatitis
+196,Parah,Sedang,Tidak,Tidak,Tidak,Tidak,44,Seboreic Dermatitis
+197,Ringan,Ringan,Sedang,Tidak,Tidak,Tidak,18,Cronic Dermatitis
+198,Ringan,Ringan,Ringan,Tidak,Tidak,Tidak,25,Cronic Dermatitis
+199,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,52,Cronic Dermatitis
+200,Ringan,Ringan,Ringan,Tidak,Tidak,Tidak,35,Cronic Dermatitis
+201,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,40,Cronic Dermatitis
+202,Parah,Sedang,Tidak,Tidak,Tidak,Ya,55,Psoriasis
+203,Sedang,Parah,Tidak,Tidak,Tidak,Tidak,20,Psoriasis
+204,Parah,Sedang,Tidak,Tidak,Tidak,Tidak,60,Psoriasis
+205,Sedang,Parah,Tidak,Tidak,Tidak,Tidak,33,Psoriasis
+206,Sedang,Parah,Tidak,Tidak,Tidak,Tidak,27,Psoriasis
+207,Parah,Sedang,Tidak,Tidak,Tidak,Tidak,50,Psoriasis
+208,Sedang,Parah,Tidak,Tidak,Tidak,Tidak,70,Psoriasis
+209,Sedang,Sedang,Parah,Tidak,Tidak,Tidak,28,Lichen Planus
+210,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,30,Lichen Planus
+211,Parah,Sedang,Sedang,Tidak,Tidak,Tidak,53,Lichen Planus
+212,Sedang,Parah,Parah,Tidak,Tidak,Tidak,27,Lichen Planus
+213,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,50,Lichen Planus
+214,Parah,Sedang,Parah,Tidak,Tidak,Tidak,42,Lichen Planus
+215,Parah,Sedang,Tidak,Tidak,Tidak,Tidak,45,Pityriasis Rosea
+216,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,35,Pityriasis Rosea
+217,Parah,Ringan,Tidak,Tidak,Tidak,Tidak,30,Pityriasis Rosea
+218,Sedang,Sedang,Ringan,Tidak,Tidak,Tidak,42,Pityriasis Rosea
+219,Ringan,Ringan,Parah,Tidak,Tidak,Tidak,18,Cronic Dermatitis
+220,Sedang,Ringan,Sedang,Tidak,Tidak,Tidak,25,Cronic Dermatitis
+221,Sedang,Ringan,Parah,Tidak,Tidak,Tidak,36,Cronic Dermatitis
+222,Sedang,Ringan,Sedang,Tidak,Tidak,Tidak,40,Cronic Dermatitis
+223,Ringan,Sedang,Ringan,Tidak,Tidak,Tidak,35,Cronic Dermatitis
+224,Ringan,Ringan,Sedang,Tidak,Tidak,Tidak,19,Cronic Dermatitis
+225,Sedang,Ringan,Tidak,Tidak,Tidak,Tidak,50,Cronic Dermatitis
+226,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,47,Seboreic Dermatitis
+227,Parah,Sedang,Ringan,Tidak,Ya,Tidak,30,Seboreic Dermatitis
+228,Sedang,Parah,Parah,Tidak,Tidak,Tidak,42,Seboreic Dermatitis
+229,Parah,Sedang,Sedang,Tidak,Tidak,Tidak,55,Seboreic Dermatitis
+230,Sedang,Sedang,Ringan,Tidak,Tidak,Ya,60,Psoriasis
+231,Parah,Sedang,Tidak,Ya,Tidak,Tidak,65,Psoriasis
+232,Sedang,Sedang,Ringan,Tidak,Ya,Ya,47,Psoriasis
+233,Parah,Sedang,Sedang,Tidak,Tidak,Ya,35,Psoriasis
+234,Sedang,Sedang,Ringan,Tidak,Tidak,Ya,52,Psoriasis
+235,Sedang,Sedang,Sedang,Tidak,Ya,Tidak,60,Psoriasis
+236,Sedang,Sedang,Ringan,Tidak,Tidak,Ya,7,Pityriasis Rubra Pilaris
+237,Parah,Sedang,Tidak,Tidak,Tidak,Tidak,8,Pityriasis Rubra Pilaris
+238,Sedang,Sedang,Parah,Tidak,Tidak,Ya,25,Psoriasis
+239,Parah,Sedang,Parah,Tidak,Tidak,Tidak,60,Psoriasis
+240,Sedang,Sedang,Sedang,Tidak,Tidak,Ya,50,Psoriasis
+241,Sedang,Ringan,Tidak,Tidak,Tidak,Ya,33,Psoriasis
+242,Parah,Parah,Tidak,Tidak,Tidak,Tidak,27,Psoriasis
+243,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,55,Psoriasis
+244,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,62,Psoriasis
+245,Parah,Sedang,Tidak,Tidak,Ya,Ya,19,Psoriasis
+246,Sedang,Ringan,Sedang,Tidak,Tidak,Tidak,50,Lichen Planus
+247,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,40,Lichen Planus
+248,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,62,Lichen Planus
+249,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,36,Lichen Planus
+250,Sedang,Ringan,Sedang,Tidak,Tidak,Tidak,27,Lichen Planus
+251,Parah,Ringan,Parah,Tidak,Ya,Tidak,47,Lichen Planus
+252,Sedang,Ringan,Sedang,Tidak,Ya,Tidak,50,Lichen Planus
+253,Sedang,Ringan,Tidak,Tidak,Tidak,Tidak,35,Pityriasis Rosea
+254,Parah,Sedang,Ringan,Tidak,Tidak,Tidak,25,Pityriasis Rosea
+255,Ringan,Sedang,Tidak,Tidak,Tidak,Tidak,60,Pityriasis Rosea
+256,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,22,Pityriasis Rosea
+257,Ringan,Sedang,Tidak,Tidak,Tidak,Tidak,35,Pityriasis Rosea
+258,Sedang,Sedang,Ringan,Tidak,Tidak,Tidak,36,Pityriasis Rosea
+259,Sedang,Sedang,Ringan,Tidak,Tidak,Ya,10,Pityriasis Rubra Pilaris
+260,Parah,Sedang,Ringan,Ya,Tidak,Ya,12,Pityriasis Rubra Pilaris
+261,Sedang,Sedang,Ringan,Tidak,Tidak,Tidak,8,Pityriasis Rubra Pilaris
+262,Parah,Sedang,Tidak,Tidak,Tidak,Tidak,35,Pityriasis Rosea
+263,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,62,Pityriasis Rosea
+264,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,48,Pityriasis Rosea
+265,Parah,Parah,Tidak,Tidak,Tidak,Ya,30,Psoriasis
+266,Sedang,Sedang,Ringan,Tidak,Tidak,Ya,57,Psoriasis
+267,Ringan,Sedang,Ringan,Tidak,Tidak,Ya,62,Psoriasis
+268,Sedang,Sedang,Ringan,Ya,Tidak,Tidak,36,Psoriasis
+269,Parah,Sedang,Sedang,Tidak,Ya,Tidak,18,Psoriasis
+270,Sedang,Sedang,Ringan,Tidak,Tidak,Tidak,25,Seboreic Dermatitis
+271,Parah,Sedang,Ringan,Ya,Tidak,Ya,16,Seboreic Dermatitis
+272,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,50,Pityriasis Rosea
+273,Ringan,Sedang,Tidak,Tidak,Tidak,Tidak,55,Pityriasis Rosea
+274,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,27,Pityriasis Rosea
+275,Parah,Parah,Tidak,Tidak,Tidak,Tidak,55,Psoriasis
+276,Sedang,Parah,Ringan,Tidak,Ya,Tidak,22,Psoriasis
+277,Sedang,Sedang,Ringan,Tidak,Tidak,Tidak,70,Seboreic Dermatitis
+278,Parah,Sedang,Tidak,Tidak,Tidak,Tidak,22,Seboreic Dermatitis
+279,Sedang,Parah,Ringan,Tidak,Tidak,Tidak,45,Seboreic Dermatitis
+280,Sedang,Ringan,Ringan,Tidak,Tidak,Tidak,40,Lichen Planus
+281,Sedang,Sedang,Ringan,Tidak,Tidak,Tidak,28,Lichen Planus
+282,Parah,Sedang,Ringan,Tidak,Tidak,Tidak,36,Lichen Planus
+283,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,27,Lichen Planus
+284,Sedang,Sedang,Tidak,Ya,Ya,Tidak,42,Psoriasis
+285,Sedang,Parah,Tidak,Tidak,Tidak,Ya,27,Psoriasis
+286,Sedang,Sedang,Ringan,Tidak,Tidak,Tidak,50,Psoriasis
+287,Sedang,Ringan,Tidak,Tidak,Tidak,Tidak,34,Psoriasis
+288,Sedang,Ringan,Sedang,Tidak,Tidak,Tidak,8,Cronic Dermatitis
+289,Sedang,Ringan,Parah,Tidak,Tidak,Tidak,19,Cronic Dermatitis
+290,Ringan,Ringan,Sedang,Ya,Tidak,Tidak,36,Cronic Dermatitis
+291,Sedang,Ringan,Parah,Tidak,Tidak,Tidak,70,Cronic Dermatitis
+292,Sedang,Sedang,Parah,Tidak,Tidak,Tidak,52,Cronic Dermatitis
+293,Sedang,Sedang,Parah,Tidak,Tidak,Tidak,25,Lichen Planus
+294,Parah,Sedang,Sedang,Tidak,Tidak,Tidak,36,Lichen Planus
+295,Sedang,Sedang,Parah,Tidak,Tidak,Tidak,50,Lichen Planus
+296,Sedang,Ringan,Tidak,Tidak,Tidak,Tidak,34,Pityriasis Rosea
+297,Parah,Ringan,Ringan,Tidak,Tidak,Tidak,17,Psoriasis
+298,Sedang,Sedang,Tidak,Tidak,Ya,Tidak,24,Psoriasis
+299,Sedang,Ringan,Tidak,Tidak,Tidak,Tidak,22,Pityriasis Rosea
+300,Sedang,Ringan,Ringan,Tidak,Tidak,Tidak,55,Pityriasis Rosea
+301,Sedang,Ringan,Tidak,Tidak,Tidak,Tidak,12,Pityriasis Rosea
+302,Sedang,Parah,Tidak,Tidak,Ya,Tidak,43,Psoriasis
+303,Parah,Sedang,Tidak,Tidak,Ya,Ya,50,Psoriasis
+304,Sedang,Sedang,Ringan,Tidak,Tidak,Tidak,36,Psoriasis
+305,Sedang,Sedang,Parah,Tidak,Tidak,Tidak,26,Lichen Planus
+306,Parah,Ringan,Parah,Tidak,Tidak,Tidak,16,Lichen Planus
+307,Sedang,Sedang,Parah,Tidak,Tidak,Tidak,32,Lichen Planus
+308,Sedang,Ringan,Parah,Tidak,Tidak,Tidak,51,Lichen Planus
+309,Sedang,Sedang,Parah,Tidak,Tidak,Tidak,23,Lichen Planus
+310,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,47,Psoriasis
+311,Sedang,Sedang,Ringan,Tidak,Ya,Tidak,51,Psoriasis
+312,Parah,Sedang,Tidak,Tidak,Tidak,Tidak,58,Psoriasis
+313,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,27,Psoriasis
+314,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,32,Pityriasis Rosea
+315,Sedang,Ringan,Tidak,Tidak,Tidak,Tidak,27,Pityriasis Rosea
+316,Sedang,Parah,Tidak,Ya,Tidak,Ya,62,Psoriasis
+317,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,53,Psoriasis
+318,Parah,Ringan,Tidak,Tidak,Tidak,Tidak,46,Pityriasis Rosea
+319,Sedang,Ringan,Parah,Tidak,Tidak,Tidak,37,Lichen Planus
+320,Ringan,Ringan,Parah,Tidak,Tidak,Tidak,49,Lichen Planus
+321,Sedang,Ringan,Ringan,Tidak,Tidak,Tidak,18,Pityriasis Rosea
+322,Sedang,Sedang,Sedang,Tidak,Tidak,Tidak,46,Psoriasis
+323,Sedang,Ringan,Tidak,Tidak,Tidak,Tidak,33,Psoriasis
+324,Ringan,Ringan,Tidak,Tidak,Tidak,Tidak,22,Pityriasis Rosea
+325,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,44,Pityriasis Rosea
+326,Ringan,Tidak,Parah,Tidak,Tidak,Tidak,36,Cronic Dermatitis
+327,Sedang,Tidak,Parah,Tidak,Tidak,Tidak,63,Cronic Dermatitis
+328,Parah,Sedang,Tidak,Tidak,Tidak,Tidak,56,Psoriasis
+329,Sedang,Parah,Ringan,Tidak,Tidak,Tidak,60,Psoriasis
+330,Sedang,Ringan,Tidak,Tidak,Tidak,Tidak,42,Cronic Dermatitis
+331,Parah,Ringan,Ringan,Tidak,Tidak,Tidak,32,Cronic Dermatitis
+332,Sedang,Ringan,Sedang,Tidak,Tidak,Tidak,51,Lichen Planus
+333,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,33,Psoriasis
+334,Ringan,Ringan,Sedang,Tidak,Tidak,Tidak,68,Cronic Dermatitis
+335,Sedang,Tidak,Sedang,Tidak,Tidak,Tidak,50,Cronic Dermatitis
+336,Sedang,Sedang,Tidak,Ya,Tidak,Ya,9,Pityriasis Rubra Pilaris
+337,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,16,Pityriasis Rubra Pilaris
+338,Sedang,Sedang,Ringan,Tidak,Tidak,Tidak,35,Pityriasis Rosea
+339,Sedang,Sedang,Ringan,Tidak,Tidak,Tidak,40,Pityriasis Rosea
+340,Sedang,Sedang,Ringan,Tidak,Tidak,Tidak,22,Pityriasis Rubra Pilaris
+341,Parah,Sedang,Tidak,Ya,Tidak,Ya,10,Pityriasis Rubra Pilaris
+342,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,7,Pityriasis Rubra Pilaris
+343,Ringan,Sedang,Sedang,Tidak,Tidak,Tidak,25,Psoriasis
+344,Sedang,Sedang,Parah,Tidak,Tidak,Ya,9,Psoriasis
+345,Parah,Sedang,Parah,Tidak,Tidak,Tidak,55,Psoriasis
+346,Ringan,Ringan,Sedang,Tidak,Tidak,Tidak,45,Cronic Dermatitis
+347,Sedang,Tidak,Sedang,Tidak,Tidak,Tidak,56,Cronic Dermatitis
+348,Sedang,Parah,Parah,Tidak,Tidak,Tidak,36,Psoriasis
+349,Sedang,Sedang,Sedang,Tidak,Tidak,Ya,75,Psoriasis
+350,Sedang,Sedang,Tidak,Tidak,Ya,Tidak,45,Psoriasis
+351,Sedang,Parah,Ringan,Tidak,Tidak,Tidak,24,Psoriasis
+352,Sedang,Sedang,Tidak,Tidak,Tidak,Tidak,40,Seboreic Dermatitis
+353,Sedang,Sedang,Ringan,Tidak,Tidak,Tidak,25,Seboreic Dermatitis
+354,Sedang,Ringan,Tidak,Tidak,Tidak,Tidak,25,Pityriasis Rosea
+355,Parah,Sedang,Tidak,Tidak,Tidak,Tidak,36,Pityriasis Rosea
+356,Parah,Sedang,Sedang,Tidak,Tidak,Tidak,28,Lichen Planus
+357,Sedang,Ringan,Ringan,Tidak,Tidak,Tidak,50,Lichen Planus
+358,Parah,Sedang,Tidak,Tidak,Tidak,Tidak,35,Psoriasis
