@@ -506,7 +506,6 @@ Need help contributing?
 - **Documentation**: Check [docs/](docs/) folder
 - **Discussions**: GitHub Discussions
 - **Issues**: Ask questions with `question` label
-- **Email**: dev@example.com
 
 ---
 
