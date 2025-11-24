@@ -531,18 +531,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Open Source Community** - Inspiration and support
 
 ---
-
-## 📞 Support
-
-For questions, issues, or feature requests:
-
-- **Documentation**: Check the [docs/](docs/) folder
-- **Issues**: Open an issue on GitHub
-- **Email**: support@example.com
-- **Website**: https://example.com
-
----
-
 ## 🎯 Quick Links
 
 - [Getting Started](#-getting-started)
