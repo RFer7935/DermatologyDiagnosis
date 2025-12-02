@@ -18,13 +18,16 @@ class CalculationDetailSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final details = CalculationDetailService.generateCalculationDetails(input, caseData);
+    final details = CalculationDetailService.generateCalculationDetails(
+      input,
+      caseData,
+    );
     final totals = CalculationDetailService.calculateTotals(details);
 
     return Container(
       decoration: const BoxDecoration(
         color: Colors.white,
-        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+        borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
       ),
       child: Column(
         mainAxisSize: MainAxisSize.min,
@@ -32,11 +35,11 @@ class CalculationDetailSheet extends StatelessWidget {
           // Handle bar
           Container(
             margin: const EdgeInsets.only(top: 12),
-            width: 40,
-            height: 4,
+            width: 50,
+            height: 5,
             decoration: BoxDecoration(
-              color: Colors.grey[300],
-              borderRadius: BorderRadius.circular(2),
+              color: const Color(0xFF4ECDC4).withOpacity(0.3),
+              borderRadius: BorderRadius.circular(3),
             ),
           ),
 
@@ -69,18 +72,38 @@ class CalculationDetailSheet extends StatelessWidget {
                   // Close Button
                   SizedBox(
                     width: double.infinity,
-                    child: ElevatedButton(
-                      onPressed: () => Navigator.pop(context),
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.blue[700],
-                        padding: const EdgeInsets.symmetric(vertical: 14),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(8),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        gradient: const LinearGradient(
+                          colors: [Color(0xFF4ECDC4), Color(0xFF95E1D3)],
                         ),
+                        borderRadius: BorderRadius.circular(16),
+                        boxShadow: [
+                          BoxShadow(
+                            color: const Color(0xFF4ECDC4).withOpacity(0.4),
+                            blurRadius: 12,
+                            offset: const Offset(0, 6),
+                          ),
+                        ],
                       ),
-                      child: const Text(
-                        'Tutup',
-                        style: TextStyle(fontSize: 16),
+                      child: ElevatedButton(
+                        onPressed: () => Navigator.pop(context),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.transparent,
+                          shadowColor: Colors.transparent,
+                          padding: const EdgeInsets.symmetric(vertical: 16),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(16),
+                          ),
+                        ),
+                        child: const Text(
+                          'Tutup',
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                          ),
+                        ),
                       ),
                     ),
                   ),
@@ -99,34 +122,100 @@ class CalculationDetailSheet extends StatelessWidget {
       children: [
         Row(
           children: [
-            Icon(Icons.calculate, color: Colors.blue[700], size: 28),
-            const SizedBox(width: 12),
-            const Expanded(
-              child: Text(
-                'Detail Logika Diagnosa',
-                style: TextStyle(
-                  fontSize: 22,
-                  fontWeight: FontWeight.bold,
+            Container(
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                gradient: const LinearGradient(
+                  colors: [Color(0xFF4ECDC4), Color(0xFF95E1D3)],
                 ),
+                borderRadius: BorderRadius.circular(14),
+                boxShadow: [
+                  BoxShadow(
+                    color: const Color(0xFF4ECDC4).withOpacity(0.3),
+                    blurRadius: 8,
+                    offset: const Offset(0, 4),
+                  ),
+                ],
+              ),
+              child: const Icon(
+                Icons.calculate_outlined,
+                color: Colors.white,
+                size: 26,
+              ),
+            ),
+            const SizedBox(width: 16),
+            const Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    'Detail Perhitungan',
+                    style: TextStyle(
+                      fontSize: 22,
+                      fontWeight: FontWeight.bold,
+                      color: Color(0xFF2C3E50),
+                    ),
+                  ),
+                  Text(
+                    'Logika Diagnosa CBR',
+                    style: TextStyle(
+                      fontSize: 13,
+                      color: Color(0xFF4ECDC4),
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                ],
               ),
             ),
           ],
         ),
-        const SizedBox(height: 8),
-        Text(
-          'Perbandingan Input vs Kasus ID #${caseData.id}',
-          style: TextStyle(
-            fontSize: 14,
-            color: Colors.grey[600],
+        const SizedBox(height: 16),
+        Container(
+          padding: const EdgeInsets.all(12),
+          decoration: BoxDecoration(
+            color: const Color(0xFFF7F9FC),
+            borderRadius: BorderRadius.circular(12),
+            border: Border.all(color: const Color(0xFF4ECDC4).withOpacity(0.2)),
           ),
-        ),
-        const SizedBox(height: 4),
-        Text(
-          'Diagnosis: ${caseData.diagnosis}',
-          style: TextStyle(
-            fontSize: 14,
-            color: Colors.blue[700],
-            fontWeight: FontWeight.w600,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  Icon(Icons.tag, size: 16, color: Colors.grey[600]),
+                  const SizedBox(width: 6),
+                  Text(
+                    'Kasus ID #${caseData.id}',
+                    style: TextStyle(
+                      fontSize: 13,
+                      color: Colors.grey[700],
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 8),
+              Row(
+                children: [
+                  const Icon(
+                    Icons.local_hospital_rounded,
+                    size: 16,
+                    color: Color(0xFF4ECDC4),
+                  ),
+                  const SizedBox(width: 6),
+                  Expanded(
+                    child: Text(
+                      caseData.diagnosis,
+                      style: const TextStyle(
+                        fontSize: 14,
+                        color: Color(0xFF4ECDC4),
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ],
           ),
         ),
       ],
@@ -137,35 +226,61 @@ class CalculationDetailSheet extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: Colors.grey[100],
-        borderRadius: BorderRadius.circular(8),
-        border: Border.all(color: Colors.grey[300]!),
+        gradient: LinearGradient(
+          colors: [
+            const Color(0xFF4ECDC4).withOpacity(0.1),
+            const Color(0xFF95E1D3).withOpacity(0.1),
+          ],
+        ),
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(
+          color: const Color(0xFF4ECDC4).withOpacity(0.3),
+          width: 1.5,
+        ),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             children: [
-              Icon(Icons.functions, size: 20, color: Colors.grey[700]),
-              const SizedBox(width: 8),
-              Text(
-                'Formula Perhitungan:',
+              Container(
+                padding: const EdgeInsets.all(6),
+                decoration: BoxDecoration(
+                  color: const Color(0xFF4ECDC4).withOpacity(0.2),
+                  borderRadius: BorderRadius.circular(6),
+                ),
+                child: const Icon(
+                  Icons.functions,
+                  size: 18,
+                  color: Color(0xFF4ECDC4),
+                ),
+              ),
+              const SizedBox(width: 10),
+              const Text(
+                'Formula Perhitungan',
                 style: TextStyle(
-                  fontSize: 12,
-                  fontWeight: FontWeight.w600,
-                  color: Colors.grey[700],
+                  fontSize: 14,
+                  fontWeight: FontWeight.bold,
+                  color: Color(0xFF2C3E50),
                 ),
               ),
             ],
           ),
-          const SizedBox(height: 8),
-          Text(
-            'Similarity = Σ(Bobot × (1 - |Input - Kasus| / Range)) / ΣBobot',
-            style: TextStyle(
-              fontFamily: 'Courier',
-              fontSize: 13,
-              color: Colors.grey[800],
-              fontWeight: FontWeight.w500,
+          const SizedBox(height: 12),
+          Container(
+            padding: const EdgeInsets.all(10),
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(8),
+            ),
+            child: const Text(
+              'Similarity = Σ(Bobot × (1 - |Input - Kasus| / Range)) / ΣBobot',
+              style: TextStyle(
+                fontFamily: 'Courier',
+                fontSize: 12,
+                color: Color(0xFF2C3E50),
+                fontWeight: FontWeight.w600,
+              ),
             ),
           ),
         ],
@@ -175,26 +290,41 @@ class CalculationDetailSheet extends StatelessWidget {
 
   Widget _buildExplanation() {
     return Container(
-      padding: const EdgeInsets.all(14),
+      padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: Colors.blue[50],
-        borderRadius: BorderRadius.circular(8),
-        border: Border.all(color: Colors.blue[200]!),
+        color: const Color(0xFF4ECDC4).withOpacity(0.08),
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(
+          color: const Color(0xFF4ECDC4).withOpacity(0.3),
+          width: 1.5,
+        ),
       ),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Icon(Icons.info_outline, color: Colors.blue[700], size: 20),
-          const SizedBox(width: 10),
-          Expanded(
+          Container(
+            padding: const EdgeInsets.all(8),
+            decoration: BoxDecoration(
+              color: const Color(0xFF4ECDC4).withOpacity(0.2),
+              borderRadius: BorderRadius.circular(8),
+            ),
+            child: const Icon(
+              Icons.lightbulb_outline,
+              color: Color(0xFF4ECDC4),
+              size: 20,
+            ),
+          ),
+          const SizedBox(width: 12),
+          const Expanded(
             child: Text(
               'Sistem membandingkan gejala Anda dengan basis pengetahuan pakar. '
               'Bobot lebih tinggi diberikan pada lokasi lesi (Lutut/Siku/Kepala) '
               'karena merupakan ciri spesifik penyakit tertentu.',
               style: TextStyle(
-                fontSize: 12,
-                color: Colors.blue[900],
-                height: 1.4,
+                fontSize: 13,
+                color: Color(0xFF2C3E50),
+                height: 1.5,
+                fontWeight: FontWeight.w500,
               ),
             ),
           ),
@@ -209,10 +339,7 @@ class CalculationDetailSheet extends StatelessWidget {
       children: [
         const Text(
           'Perhitungan Per Gejala:',
-          style: TextStyle(
-            fontSize: 16,
-            fontWeight: FontWeight.bold,
-          ),
+          style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
         ),
         const SizedBox(height: 12),
         Container(
@@ -224,10 +351,15 @@ class CalculationDetailSheet extends StatelessWidget {
             children: [
               // Table Header
               Container(
-                padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 12),
-                decoration: BoxDecoration(
-                  color: Colors.blue[700],
-                  borderRadius: const BorderRadius.vertical(top: Radius.circular(7)),
+                padding: const EdgeInsets.symmetric(
+                  vertical: 14,
+                  horizontal: 12,
+                ),
+                decoration: const BoxDecoration(
+                  gradient: LinearGradient(
+                    colors: [Color(0xFF4ECDC4), Color(0xFF95E1D3)],
+                  ),
+                  borderRadius: BorderRadius.vertical(top: Radius.circular(7)),
                 ),
                 child: const Row(
                   children: [
@@ -237,7 +369,7 @@ class CalculationDetailSheet extends StatelessWidget {
                         'Gejala',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontSize: 12,
+                          fontSize: 13,
                           color: Colors.white,
                         ),
                       ),
@@ -248,7 +380,7 @@ class CalculationDetailSheet extends StatelessWidget {
                         'Input',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontSize: 12,
+                          fontSize: 13,
                           color: Colors.white,
                         ),
                       ),
@@ -259,7 +391,7 @@ class CalculationDetailSheet extends StatelessWidget {
                         'Kasus',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontSize: 12,
+                          fontSize: 13,
                           color: Colors.white,
                         ),
                       ),
@@ -271,7 +403,7 @@ class CalculationDetailSheet extends StatelessWidget {
                         textAlign: TextAlign.right,
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontSize: 12,
+                          fontSize: 13,
                           color: Colors.white,
                         ),
                       ),
@@ -300,9 +432,7 @@ class CalculationDetailSheet extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 12),
       decoration: BoxDecoration(
         color: isEven ? Colors.white : Colors.grey[50],
-        border: Border(
-          bottom: BorderSide(color: Colors.grey[200]!),
-        ),
+        border: Border(bottom: BorderSide(color: Colors.grey[200]!)),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -326,17 +456,29 @@ class CalculationDetailSheet extends StatelessWidget {
                     if (row.weight > 1.0)
                       Container(
                         margin: const EdgeInsets.only(top: 4),
-                        padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 8,
+                          vertical: 3,
+                        ),
                         decoration: BoxDecoration(
-                          color: Colors.orange[100],
-                          borderRadius: BorderRadius.circular(4),
+                          gradient: const LinearGradient(
+                            colors: [Color(0xFFFFB84D), Color(0xFFFFA726)],
+                          ),
+                          borderRadius: BorderRadius.circular(6),
+                          boxShadow: [
+                            BoxShadow(
+                              color: const Color(0xFFFFB84D).withOpacity(0.3),
+                              blurRadius: 4,
+                              offset: const Offset(0, 2),
+                            ),
+                          ],
                         ),
                         child: Text(
                           row.weightLabel,
-                          style: TextStyle(
+                          style: const TextStyle(
                             fontSize: 9,
-                            color: Colors.orange[900],
-                            fontWeight: FontWeight.w600,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
                           ),
                         ),
                       ),
@@ -356,10 +498,7 @@ class CalculationDetailSheet extends StatelessWidget {
                 flex: 2,
                 child: Row(
                   children: [
-                    Text(
-                      row.caseDisplay,
-                      style: const TextStyle(fontSize: 11),
-                    ),
+                    Text(row.caseDisplay, style: const TextStyle(fontSize: 11)),
                     if (isMatch) ...[
                       const SizedBox(width: 4),
                       Icon(
@@ -387,10 +526,7 @@ class CalculationDetailSheet extends StatelessWidget {
                     ),
                     Text(
                       '(${row.similarityPercentage})',
-                      style: TextStyle(
-                        fontSize: 10,
-                        color: Colors.grey[600],
-                      ),
+                      style: TextStyle(fontSize: 10, color: Colors.grey[600]),
                     ),
                   ],
                 ),
@@ -414,17 +550,19 @@ class CalculationDetailSheet extends StatelessWidget {
 
   Widget _buildSummary(Map<String, double> totals) {
     return Container(
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        gradient: LinearGradient(
-          colors: [Colors.blue[700]!, Colors.blue[900]!],
+        gradient: const LinearGradient(
+          colors: [Color(0xFF4ECDC4), Color(0xFF95E1D3)],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
         ),
-        borderRadius: BorderRadius.circular(12),
+        borderRadius: BorderRadius.circular(16),
         boxShadow: [
           BoxShadow(
-            color: Colors.blue.withValues(alpha: 0.3),
-            blurRadius: 8,
-            offset: const Offset(0, 4),
+            color: const Color(0xFF4ECDC4).withOpacity(0.4),
+            blurRadius: 15,
+            offset: const Offset(0, 8),
           ),
         ],
       ),
@@ -433,13 +571,24 @@ class CalculationDetailSheet extends StatelessWidget {
         children: [
           Row(
             children: [
-              const Icon(Icons.calculate_outlined, color: Colors.white, size: 20),
-              const SizedBox(width: 8),
+              Container(
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  color: Colors.white.withOpacity(0.2),
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                child: const Icon(
+                  Icons.analytics_outlined,
+                  color: Colors.white,
+                  size: 22,
+                ),
+              ),
+              const SizedBox(width: 12),
               const Text(
-                'Hasil Akhir:',
+                'Hasil Akhir',
                 style: TextStyle(
-                  fontSize: 14,
-                  fontWeight: FontWeight.w600,
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
                   color: Colors.white,
                 ),
               ),
@@ -533,16 +682,17 @@ void showCalculationDetail(
     context: context,
     isScrollControlled: true,
     backgroundColor: Colors.transparent,
-    builder: (context) => DraggableScrollableSheet(
-      initialChildSize: 0.9,
-      minChildSize: 0.5,
-      maxChildSize: 0.95,
-      builder: (context, scrollController) => CalculationDetailSheet(
-        input: input,
-        caseData: caseData,
-        similarityScore: similarityScore,
-      ),
-    ),
+    builder:
+        (context) => DraggableScrollableSheet(
+          initialChildSize: 0.9,
+          minChildSize: 0.5,
+          maxChildSize: 0.95,
+          builder:
+              (context, scrollController) => CalculationDetailSheet(
+                input: input,
+                caseData: caseData,
+                similarityScore: similarityScore,
+              ),
+        ),
   );
 }
-
