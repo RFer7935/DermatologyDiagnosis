@@ -66,9 +66,9 @@ class _DiagnosisScreenState extends State<DiagnosisScreen> {
       });
     } catch (e) {
       if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Error: $e')),
-        );
+        ScaffoldMessenger.of(
+          context,
+        ).showSnackBar(SnackBar(content: Text('Error: $e')));
       }
     }
   }
@@ -77,32 +77,21 @@ class _DiagnosisScreenState extends State<DiagnosisScreen> {
   Widget build(BuildContext context) {
     if (_isLoading) {
       return Scaffold(
-        appBar: AppBar(
-          title: const Text('Sistem Pakar Dermatologi'),
-        ),
-        body: const Center(
-          child: CircularProgressIndicator(),
-        ),
+        appBar: AppBar(title: const Text('Sistem Pakar Dermatologi')),
+        body: const Center(child: CircularProgressIndicator()),
       );
     }
 
     if (_error != null) {
       return Scaffold(
-        appBar: AppBar(
-          title: const Text('Sistem Pakar Dermatologi'),
-        ),
-        body: Center(
-          child: Text(_error!),
-        ),
+        appBar: AppBar(title: const Text('Sistem Pakar Dermatologi')),
+        body: Center(child: Text(_error!)),
       );
     }
 
     return Scaffold(
       backgroundColor: const Color(0xFFF7F9FC),
-      appBar: AppBar(
-        title: const Text('Dermatologi Expert'),
-        elevation: 0,
-      ),
+      appBar: AppBar(title: const Text('Dermatologi Expert'), elevation: 0),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(20),
         child: Column(
@@ -251,8 +240,8 @@ class _DiagnosisScreenState extends State<DiagnosisScreen> {
                     _buildBinaryInput(
                       label: 'Knee and Elbow (Lutut dan Siku)',
                       value: _kneeAndElbow == 1,
-                      onChanged: (val) =>
-                          setState(() => _kneeAndElbow = val ? 1 : 0),
+                      onChanged:
+                          (val) => setState(() => _kneeAndElbow = val ? 1 : 0),
                     ),
                     const SizedBox(height: 16),
 
@@ -268,8 +257,8 @@ class _DiagnosisScreenState extends State<DiagnosisScreen> {
                     _buildBinaryInput(
                       label: 'Family History (Riwayat Keluarga)',
                       value: _familyHistory == 1,
-                      onChanged: (val) =>
-                          setState(() => _familyHistory = val ? 1 : 0),
+                      onChanged:
+                          (val) => setState(() => _familyHistory = val ? 1 : 0),
                     ),
                     const SizedBox(height: 16),
 
@@ -413,10 +402,7 @@ class _DiagnosisScreenState extends State<DiagnosisScreen> {
             ),
             items: List.generate(
               options.length,
-              (idx) => DropdownMenuItem(
-                value: idx,
-                child: Text(options[idx]),
-              ),
+              (idx) => DropdownMenuItem(value: idx, child: Text(options[idx])),
             ),
             onChanged: (val) => onChanged(val ?? 0),
           ),
@@ -453,10 +439,7 @@ class _DiagnosisScreenState extends State<DiagnosisScreen> {
               ),
             ),
           ),
-          Switch(
-            value: value,
-            onChanged: onChanged,
-          ),
+          Switch(value: value, onChanged: onChanged),
         ],
       ),
     );
@@ -488,7 +471,10 @@ class _DiagnosisScreenState extends State<DiagnosisScreen> {
                 ),
               ),
               Container(
-                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 12,
+                  vertical: 6,
+                ),
                 decoration: BoxDecoration(
                   color: const Color(0xFF4ECDC4),
                   borderRadius: BorderRadius.circular(8),
@@ -541,17 +527,12 @@ class _DiagnosisScreenState extends State<DiagnosisScreen> {
       margin: const EdgeInsets.only(bottom: 16),
       elevation: 3,
       shadowColor: Colors.black12,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(20),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       child: Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
           gradient: LinearGradient(
-            colors: [
-              Colors.white,
-              getScoreColor().withOpacity(0.05),
-            ],
+            colors: [Colors.white, getScoreColor().withOpacity(0.05)],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
@@ -753,27 +734,18 @@ class _DiagnosisScreenState extends State<DiagnosisScreen> {
     );
   }
 
-  Widget _buildInfoChip({
-    required IconData icon,
-    required String label,
-  }) {
+  Widget _buildInfoChip({required IconData icon, required String label}) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
       decoration: BoxDecoration(
         color: const Color(0xFFF7F9FC),
         borderRadius: BorderRadius.circular(8),
-        border: Border.all(
-          color: const Color(0xFF4ECDC4).withOpacity(0.2),
-        ),
+        border: Border.all(color: const Color(0xFF4ECDC4).withOpacity(0.2)),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Icon(
-            icon,
-            size: 14,
-            color: const Color(0xFF4ECDC4),
-          ),
+          Icon(icon, size: 14, color: const Color(0xFF4ECDC4)),
           const SizedBox(width: 4),
           Text(
             label,
@@ -788,4 +760,3 @@ class _DiagnosisScreenState extends State<DiagnosisScreen> {
     );
   }
 }
-

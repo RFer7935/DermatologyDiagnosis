@@ -18,7 +18,10 @@ class CalculationDetailSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final details = CalculationDetailService.generateCalculationDetails(input, caseData);
+    final details = CalculationDetailService.generateCalculationDetails(
+      input,
+      caseData,
+    );
     final totals = CalculationDetailService.calculateTotals(details);
 
     return Container(
@@ -172,20 +175,14 @@ class CalculationDetailSheet extends StatelessWidget {
           decoration: BoxDecoration(
             color: const Color(0xFFF7F9FC),
             borderRadius: BorderRadius.circular(12),
-            border: Border.all(
-              color: const Color(0xFF4ECDC4).withOpacity(0.2),
-            ),
+            border: Border.all(color: const Color(0xFF4ECDC4).withOpacity(0.2)),
           ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Row(
                 children: [
-                  Icon(
-                    Icons.tag,
-                    size: 16,
-                    color: Colors.grey[600],
-                  ),
+                  Icon(Icons.tag, size: 16, color: Colors.grey[600]),
                   const SizedBox(width: 6),
                   Text(
                     'Kasus ID #${caseData.id}',
@@ -342,10 +339,7 @@ class CalculationDetailSheet extends StatelessWidget {
       children: [
         const Text(
           'Perhitungan Per Gejala:',
-          style: TextStyle(
-            fontSize: 16,
-            fontWeight: FontWeight.bold,
-          ),
+          style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
         ),
         const SizedBox(height: 12),
         Container(
@@ -357,7 +351,10 @@ class CalculationDetailSheet extends StatelessWidget {
             children: [
               // Table Header
               Container(
-                padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 12),
+                padding: const EdgeInsets.symmetric(
+                  vertical: 14,
+                  horizontal: 12,
+                ),
                 decoration: const BoxDecoration(
                   gradient: LinearGradient(
                     colors: [Color(0xFF4ECDC4), Color(0xFF95E1D3)],
@@ -435,9 +432,7 @@ class CalculationDetailSheet extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 12),
       decoration: BoxDecoration(
         color: isEven ? Colors.white : Colors.grey[50],
-        border: Border(
-          bottom: BorderSide(color: Colors.grey[200]!),
-        ),
+        border: Border(bottom: BorderSide(color: Colors.grey[200]!)),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -461,7 +456,10 @@ class CalculationDetailSheet extends StatelessWidget {
                     if (row.weight > 1.0)
                       Container(
                         margin: const EdgeInsets.only(top: 4),
-                        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 8,
+                          vertical: 3,
+                        ),
                         decoration: BoxDecoration(
                           gradient: const LinearGradient(
                             colors: [Color(0xFFFFB84D), Color(0xFFFFA726)],
@@ -500,10 +498,7 @@ class CalculationDetailSheet extends StatelessWidget {
                 flex: 2,
                 child: Row(
                   children: [
-                    Text(
-                      row.caseDisplay,
-                      style: const TextStyle(fontSize: 11),
-                    ),
+                    Text(row.caseDisplay, style: const TextStyle(fontSize: 11)),
                     if (isMatch) ...[
                       const SizedBox(width: 4),
                       Icon(
@@ -531,10 +526,7 @@ class CalculationDetailSheet extends StatelessWidget {
                     ),
                     Text(
                       '(${row.similarityPercentage})',
-                      style: TextStyle(
-                        fontSize: 10,
-                        color: Colors.grey[600],
-                      ),
+                      style: TextStyle(fontSize: 10, color: Colors.grey[600]),
                     ),
                   ],
                 ),
@@ -690,16 +682,17 @@ void showCalculationDetail(
     context: context,
     isScrollControlled: true,
     backgroundColor: Colors.transparent,
-    builder: (context) => DraggableScrollableSheet(
-      initialChildSize: 0.9,
-      minChildSize: 0.5,
-      maxChildSize: 0.95,
-      builder: (context, scrollController) => CalculationDetailSheet(
-        input: input,
-        caseData: caseData,
-        similarityScore: similarityScore,
-      ),
-    ),
+    builder:
+        (context) => DraggableScrollableSheet(
+          initialChildSize: 0.9,
+          minChildSize: 0.5,
+          maxChildSize: 0.95,
+          builder:
+              (context, scrollController) => CalculationDetailSheet(
+                input: input,
+                caseData: caseData,
+                similarityScore: similarityScore,
+              ),
+        ),
   );
 }
-
